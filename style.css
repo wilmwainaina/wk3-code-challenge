@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  color: grey;
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/movie\ backgound.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles for the movie details section */
+
+.movie-details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movie-details h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
+
+.movie-details button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-details button:hover {
+  background-color: #45a049;
+}
+
+.movie-details img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Styles for the films list */
+
+.films {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.films .film-item {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.films .film-item:hover {
+  background-color: #f2f2f2;
+}
